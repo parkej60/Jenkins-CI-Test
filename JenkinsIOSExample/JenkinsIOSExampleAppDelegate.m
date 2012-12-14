@@ -23,6 +23,10 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    
+    NSLog(@"%@",@"This is a test");
+    
     return YES;
 }
 
